@@ -11,5 +11,6 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print("ET0735 (DevOps for AIoT) - Lab 2 - Introduction to Python")
+    print_hi('PyCharm')
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
