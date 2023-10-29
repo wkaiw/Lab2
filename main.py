@@ -19,7 +19,6 @@ def sort_temperature(num_list):
     return num_list
 def calc_median_temperature(num_list):
     n = len(num_list)
-
     if n % 2 == 1:
         # If the number of elements is odd, return the middle value as the median
         median = num_list[n // 2]
