@@ -11,9 +11,12 @@ def calc_average_temperature(num_list):
     average = sum(num_list)/ len(num_list)
     return average
 def find_min_max(num_list):
+    if not num_list:
+        return [None, None]
     min_temp = min(num_list)
     max_temp = max(num_list)
     return [min_temp, max_temp]
+
 def sort_temperature(num_list):
     num_list.sort()  # This will sort num_list in-place in ascending order
     return num_list
